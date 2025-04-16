@@ -44,13 +44,15 @@ mox run deploy --network anvil
 You can encrypt a private key using the wallet import ACCOUNT_NAME command. This will create a keystore file in the default keystore directory.
 It will prompt you to enter your private key and password.
 
-'''
+
 mox wallet import my_account
 
 Running wallet command...
 Importing private key...
 Enter your private key:  ...
-'''
+
+
+
 Once you have an account, you can view it with the wallet list command.
 
 $ mox wallet list
@@ -59,11 +61,15 @@ Running wallet command...
 Found 1 accounts:
 my_account
 
+
+
 This will encrypt your key and store it at ~/.moccasin/keystore/my_account.json. 
 
 You can view the contents of the keystore file with the wallet view command.
 
 You can then use these in scripts!
+
+
 
 mox run deploy --account my_account
 
