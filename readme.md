@@ -15,6 +15,8 @@ You can run the deploy.py script with either:
 mox run deploy 
 OR
 mox run ./script/deploy.py
+OR
+mox run deploy --network anvil --account anvil1
 
 ## Networking:
 If you have networks defined in your moccasin.toml, 
