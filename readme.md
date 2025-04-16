@@ -44,16 +44,12 @@ mox run deploy --network anvil
 You can encrypt a private key using the wallet import ACCOUNT_NAME command. This will create a keystore file in the default keystore directory.
 It will prompt you to enter your private key and password.
 
-'''vyper 
-
-
+'''
 mox wallet import my_account
 
 Running wallet command...
 Importing private key...
 Enter your private key:  ...
-
-
 '''
 Once you have an account, you can view it with the wallet list command.
 
