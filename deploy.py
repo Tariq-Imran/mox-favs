@@ -1,4 +1,3 @@
-
 from src import favorites
 
 def deploy_favorites():
@@ -10,7 +9,6 @@ def deploy_favorites():
     ending_number = favorites_contract.retrieve()
     print(f"Ending number is : {ending_number}")
     return favorites_contract
-
 
 def moccasin_main():
     deploy_favorites()
