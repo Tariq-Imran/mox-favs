@@ -1,7 +1,7 @@
 
 # I'm a comment!
 
-# pragma version ^0.4.1
+# pragma version ^0.4.0
 # @license MIT
 
 struct Person:
@@ -19,7 +19,7 @@ name_to_favorite_number: HashMap[String[100], uint256]
 
 @deploy
 def __init__():
-    self.my_favorite_number = 7
+    self.my_favorite_number = 10
 
 @external
 def store(favorite_number: uint256):
